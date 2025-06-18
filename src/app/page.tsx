@@ -141,7 +141,7 @@ const TodoApp: React.FC = () => {
         </div>
 
         {/* Todo List */}
-        <div className="space-y-3">
+        <div role='listitem' className="space-y-3">
           {filteredTodos.length === 0 ? (
             <div className="text-center py-12">
               <div className="text-6xl mb-4">🎯</div>
@@ -252,3 +252,4 @@ const TodoApp: React.FC = () => {
 };
 
 export default TodoApp;
+
